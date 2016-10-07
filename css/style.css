@@ -1,0 +1,222 @@
+    /* CSS Document */
+    
+    body {
+        background-color: #999;
+    }
+    h1,
+    h2,
+    h3 {
+        color: #373737;
+    }
+    a {
+        color: #fff
+    }
+    .header {
+        background-color: #373737;
+    }
+    .main {
+        background-color: #edecea;
+    }
+    .footer {
+        background-color: #373737;
+    }
+    .footer h4 {
+        color: #fff;
+    }
+    .footer-bottom {
+        background-color: #1e1f1f;
+    }
+    .footer-bottom p {
+        color: #999;
+    }
+    /* Box sizing */
+    
+    html {
+        box-sizing: border-box;
+    }
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+    /* Grid Rules */
+    
+    .container {
+        width: 960px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .column {
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .row {
+        overflow: hidden;
+    }
+    .one-whole {
+        width: 940px;
+    }
+    .three-quarters {
+        width: 700px;
+    }
+    .one-quarter {
+        width: 220px;
+    }
+    .one-half {
+        width: 460px;
+    }
+    .two-thirds {
+        width: 630px;
+    }
+    .one-third {
+        width: 300px;
+    }
+    .one-sixth {
+        width: 140px;
+    }
+    .alpha {
+        margin-left: 0;
+    }
+    .omega {
+        margin-right: 0;
+    }
+    nav ul li {
+        display: inline-block;
+    }
+    ul {
+        list-style: none;
+        padding: 0px;
+    }
+    .img-responsive {
+        max-width: 100%;
+        height: auto;
+    }
+    /* Header */
+    
+    .brand {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .nav {
+        padding-top: 60px;
+    }
+    .pull-right {
+        float: right;
+    }
+    /* content boxes */
+    
+    .contentbox {
+        background-color: #fff;
+        padding: 10px;
+        margin-bottom: 70 px;
+    }
+    .contentbox li {
+        color: #373737
+    }
+    .contentbox-beige {
+        background-color: #f9f8f8;
+        padding: 10px;
+        margin-bottom: 70 px;
+    }
+    .contentbox-turquoise {
+        background-color: #5adae2;
+        padding: 10px;
+        margin-bottom: 70 px;
+    }
+    .contentbox>img {
+        float: left;
+        margin-right: 15px;
+    }
+    /* Footer */
+    
+    .social {
+        text-align: center;
+    }
+    /* Classes for stages */
+    
+    .page-header {
+        background-color: #5adae2;
+        color: #fff;
+        padding-top: 30px;
+        margin-bottom: 50px;
+    }
+    .page-header p {
+        padding-left: 15px;
+    }
+    /* Classes for Home Page */
+    
+    .tile {
+        background-color: #5adae2;
+        color: #fff;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .page-header.home {
+        margin-bottom: 0;
+    }
+    .home h1 {
+        color: #fff;
+    }
+    .message {
+        background-color: #4cd2da;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .message h3 {
+        color: #fff;
+    }
+    .main-content-top h1 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .main-content-bottom {
+        padding-bottom: 75px;
+    }
+    .blog-tease {
+        height: 210px;
+        color: #fff;
+    }
+    .blog-tease h2 {
+        color: #fff;
+    }
+    /* Classes for About Page */
+    
+    .team h1 {
+        margin-bottom: 40px;
+    }
+    .team-member {
+        margin-bottom: 20px;
+    }
+    /* Classes for Portfolio */
+    
+    .portfolio-item {
+        margin-bottom: 10px;
+    }
+    .portfolio-title {
+        display: none;
+        /* hide portfolio image text */
+    }
+    /* Classes for Blog */
+    
+    .info li {
+        display: inline-block;
+    }
+    .sidebar {
+        padding: 10px;
+    }
+    .recent-entries img {
+        float: left;
+        padding-right: 10px;
+    }
+    .photos img {
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    /* Classes for Contact */
+    
+    .table,
+    .form p,
+    .map h2 {
+        margin-left: 15px;
+    }
