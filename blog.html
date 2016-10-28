@@ -4,7 +4,8 @@
 <head>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script src="https://use.fontawesome.com/08174a6492.js"></script>
     <meta charset="UTF-8">
     <title>Simply Flat</title>
 </head>
@@ -23,7 +24,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
+                        <li class="active"><a href="blog.html">Blog</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </nav>
@@ -56,9 +57,9 @@
 
 
                                 <ul class="info">
-                                    <li>February 02, 2013</li>
-                                    <li>Diana Anderson</li>
-                                    <li>24 Comments</li>
+                                    <li> <i class="fa fa-calendar"></i> February 02, 2013</li>
+                                    <li> <i class="fa fa-pencil"></i> Diana Anderson</li>
+                                    <li> <i class="fa fa-comments"></i> 24 Comments</li>
 
                                 </ul>
 
@@ -69,7 +70,7 @@
                                 <p>Qui ad illud impedit argumentum, per an dicam dignissim signiferumque. Eu consul cetero commune sit. Mundi nostrud disputando vix ea, ut eum latine accusamus corrumpit. Munere ridens nostro eu mel. Nam an labore mediocritatem. Delenit euripidis torquatos eam eu. Tempor admodum adipisci et cum, hinc solum expetendis usu no. Usu ut esse laoreet consequat. Sea mundi decore fastidii et, at mei laudem perfecto oportere, harum deserunt no est. Cum at idque iracundia, diam ceteros molestie vix ad. Eam exerci dolores complectitur ex, patrioque maiestatis eu duo, prompta recteque eam te.</p>
 
 
-                                <a href="#">Read More</a>
+                                <a href="#" class="btn"><i class="icon-plus"></i>Read More</a>
                             </article>
 
 
@@ -90,7 +91,7 @@
                                 <p>Qui ad illud impedit argumentum, per an dicam dignissim signiferumque. Eu consul cetero commune sit. Mundi nostrud disputando vix ea, ut eum latine accusamus corrumpit. Munere ridens nostro eu mel. Nam an labore mediocritatem. Delenit euripidis torquatos eam eu. Tempor admodum adipisci et cum, hinc solum expetendis usu no. Usu ut esse laoreet consequat. Sea mundi decore fastidii et, at mei laudem perfecto oportere, harum deserunt no est. Cum at idque iracundia, diam ceteros molestie vix ad. Eam exerci dolores complectitur ex, patrioque maiestatis eu duo, prompta recteque eam te.</p>
 
 
-                                <a href="#">Read More</a>
+                                <a href="#" class="btn"><i class="icon-plus"></i>Read More</a>
                             </article>
 
 
@@ -110,7 +111,7 @@
 
                                 <p>Qui ad illud impedit argumentum, per an dicam dignissim signiferumque. Eu consul cetero commune sit. Mundi nostrud disputando vix ea, ut eum latine accusamus corrumpit. Munere ridens nostro eu mel. Nam an labore mediocritatem. Delenit euripidis torquatos eam eu. Tempor admodum adipisci et cum, hinc solum expetendis usu no. Usu ut esse laoreet consequat. Sea mundi decore fastidii et, at mei laudem perfecto oportere, harum deserunt no est. Cum at idque iracundia, diam ceteros molestie vix ad. Eam exerci dolores complectitur ex, patrioque maiestatis eu duo, prompta recteque eam te.</p>
 
-                                <a href="#">Read More</a>
+                                <a href="#" class="btn"><i class="icon-plus"></i>Read More</a>
                             </article>
 
 
@@ -214,7 +215,13 @@
             <div class="one-third column">
                 <h4>Contact Us</h4>
 
-                <!-- Unordered List, make the URL a link and use "#" for href attribute value-->
+                <ul>
+                    <li><i class="fa fa-home"></i> 5B Streat, City 50987</li>
+                    <li><i class="fa fa-envelope"></i> <a href="#"> info@example.com</a></li>
+                    <li><i class="fa fa-phone-square"></i> 1.541.258.2881</li>
+                    <li><i class="fa fa-print"></i> 1.541.854.8412</li>
+                    <li><i class="fa fa-globe"></i> <a href="#"> http://www.example.com</a></li>
+                </ul>
                 <ul>
                     <li>5B Streat, City 50987</li>
                     <li> info@example.com</li>
@@ -226,7 +233,14 @@
             <div>
                 <h4 class="one-whole column social">We're Social</h4>
 
-                <!-- Social media icons go here - You will add them later -->
+                <ul class="social-list">
+                    <li><a href="#"><i class="fa fa-facebook fa-2x"></i> </a></li>
+                    <li><a href="#"><i class="fa fa-twitter fa-2x"></i> </a></li>
+                    <li><a href="#"><i class="fa fa-linkedin fa-2x"></i> </a></li>
+                    <li><a href="#"><i class="fa fa-pinterest fa-2x"></i> </a></li>
+                    <li><a href="#"><i class="fa fa-google-plus fa-2x"></i> </a></li>
+                </ul>
+
             </div>
 
             <div class="row footer-bottom">
@@ -238,6 +252,7 @@
                         <p>Theme by <a href="#">Northify</a></p>
                     </div>
                 </div>
+            </div>
         </footer>
 
 
@@ -248,7 +263,7 @@
 
 
 
-        </div>
+    </div>
 </body>
 
 </html>
