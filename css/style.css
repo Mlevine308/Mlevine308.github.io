@@ -107,9 +107,6 @@
     }
     /* Grid Rules */
     
-    nav ul li {
-        display: inline-block;
-    }
     ul {
         list-style: none;
         padding: 0px;
@@ -130,27 +127,6 @@
     .active a {
         color: #5ADAE2;
         /* turquoise */
-    }
-    .nav a:hover {
-        color: #5ADAE2;
-        /* turquoise */
-    }
-    .nav a {
-        padding: 0px 10px;
-        -webkit-transition: color 0.3s ease 0s;
-        -moz-transition: color 0.3s ease-out;
-        -ms-transition: color 0.3s ease-out;
-        -o-transition: color 0.3s ease-out;
-        transition: color 0.3s ease-in-out;
-    }
-    .nav li:last-child {
-        border-right: 0 none;
-    }
-    .nav li {
-        float: none;
-        border-right: 1px solid #DEDEDE;
-        /* light gray */
-        font-size: 18px;
     }
     .brand {
         padding-top: 45px;
@@ -415,7 +391,7 @@
     
     .menu-link {
         position: absolute;
-        right: 50px;
+        right: 150px;
         /* adjust this value if need be */
         top: 60px;
         /* adjust this value if need be */
@@ -426,7 +402,6 @@
         -ms-transition: all 0.3s ease-out;
         -o-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out;
-        overflow: hidden;
         max-height: 0;
         /* zero height so nav is hidden */
     }
@@ -449,9 +424,10 @@
         /* gray */
         border-left: 1px solid #dedede;
         /* gray */
+        font-size: 18px;
     }
     .nav li:last-child {
-        border-right: 1px solid #dedede;
+        border-bottom: 1px solid #dedede;
         /* gray */
     }
     .nav a {
@@ -470,6 +446,9 @@
     
     @media (min-width: 768px) {
         /* Horizontal navigation */
+        nav ul li {
+            display: inline-block;
+        }
         .nav {
             padding-top: 60px;
             max-height: none;
